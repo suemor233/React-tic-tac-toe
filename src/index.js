@@ -12,9 +12,6 @@ const Square = (props) =>{
 
 
 class Board extends React.Component {
-
-
-
     renderSquare(i) {
         return (
             <Square
@@ -67,7 +64,7 @@ class Game extends React.Component {
             xIsNext: !this.state.xIsNext
             })
     }
-
+    
     constructor(props) {
         super(props);
         this.state = {
